@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-md-6">
+        <form method="POST" action="/api/users">
+            <div class="form-group row">
+                <label class="col-3 col-form-label">First Name</label>
+                <input class="col-9 form-control" type="text" name="firstName" required>
+            </div>
+            <div class="form-group row">
+                <label class="col-3 col-form-label">Last Name</label>
+                <input class="col-9 form-control" type="text" name="lastName" required>
+            </div>
+            <div class="form-group row">
+                <label class="col-3 col-form-label">Age</label>
+                <input class="col-9 form-control" type="number" name="age" required>
+            </div>
+            <div class="form-group row">
+                <label class="col-3 col-form-label">Email</label>
+                <input class="col-9 form-control" type="email" name="email" required>
+            </div>
+            <div class="form-group row">
+                <label class="col-3 col-form-label">Adress</label>
+                <input class="col-9 form-control" type="text" name="adress" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-striped table-hover table-responsive" id="myTable">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            {{!--
+            <tbody>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>23</td>
+                    <td>Email@email.email</td>
+                    <th>HN</th>
+                </tr>
+            </tbody>--}}
+        </table>
+    </div>
+</div>
+{{!--
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>--}}

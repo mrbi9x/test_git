@@ -1,0 +1,29 @@
+body {
+  padding: 70px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.menu .navbar-header .navbar-brand{
+  color: white !important;
+}
+.menu  .navbar-nav > .active > a
+{
+background-color : #04A3ED;
+color: white;
+font-weight: bold;
+}
+.menu .navbar-right{
+  margin: 7.5px -15px;
+}
+.menu  .navbar-nav >  li >  a
+{
+font-size: 13px;
+color: white;
+padding: 10px 35px;
+}
+.menu  .navbar-nav >  li >  a:hover
+{
+background-color: #04A3ED;
+}
+a {
+  color: #00B7FF;
+}

@@ -10,7 +10,7 @@ favicon = require('serve-favicon'),
 var MongoClient = require('mongodb').MongoClient;
 var db;
 MongoClient.connect(config.dbUrl, (err, database) => {
-  if (err) return;
+  if (err) return console.log(err);
   db = database;
 })
 
